@@ -177,7 +177,7 @@ class Maker extends Component {
                   <input
                     style={{ borderRadius: "10px" }}
                     type="text"
-                    name="training"
+                    name="location"
                     onChange={handleChange}
                     onBlur={handleBlur}
                     value={values.location}
