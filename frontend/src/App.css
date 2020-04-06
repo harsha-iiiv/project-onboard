@@ -1,0 +1,88 @@
+.App {
+  text-align: center;
+}
+.container{
+  padding-top: 50px;
+  padding-bottom: 85px;
+
+}
+.title{
+  text-align: center;
+  margin-bottom: 100px;
+}
+.card-title{
+  text-align: center;
+}
+.card:hover {
+  transform: translateX(-2px) translateY(-2px);
+  box-shadow: 5px 5px 7px 0px #060e35;
+}
+
+.card{    
+  margin-bottom: 1rem; 
+  margin-top: 1rem;
+  transition-duration: 1s;
+  user-select: none;
+
+ 
+}
+.section{
+  background-color: gainsboro;
+  background:  #e7e9ea;
+  box-sizing: border-box;
+  padding: 10px;
+  border-radius: 20px;
+  
+  display: inline-block;
+ 
+  text-align: center;
+  width: 100%;
+  margin-top: 20px;
+}
+.u-btn{
+  padding-left:50%;
+  padding-top: 50px;
+}
+.box{
+
+  border: solid #011C3B;
+  border-radius: 30px;
+  padding: 20px;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.nav-wrapper, .page-footer, .btn{
+  background-color: #011C3B;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
