@@ -27,12 +27,12 @@
  
 }
 .section{
-  background-color: gainsboro;
+  
   background:  #e7e9ea;
   box-sizing: border-box;
   padding: 10px;
   border-radius: 20px;
-  
+  box-shadow: 2px 2px 4px 0px #060e35;
   display: inline-block;
  
   text-align: center;
